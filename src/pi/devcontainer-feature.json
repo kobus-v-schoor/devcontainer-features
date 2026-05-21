@@ -1,0 +1,22 @@
+{
+    "id": "pi",
+    "version": "1.0.0",
+    "name": "Pi Coding Agent",
+    "documentationURL": "https://pi.dev/docs/latest",
+    "description": "Installs the Pi coding agent (https://pi.dev).",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select version of the Pi Coding Agent to install, if not latest."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/node"
+    ]
+}
