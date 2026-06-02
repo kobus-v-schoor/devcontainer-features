@@ -1,0 +1,18 @@
+{
+    "id": "glab",
+    "version": "1.0.0",
+    "name": "GitLab CLI",
+    "documentationURL": "https://docs.gitlab.com/cli/",
+    "description": "Installs the GitLab CLI (glab).",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select version of glab to install, if not latest."
+        }
+    }
+}
