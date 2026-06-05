@@ -1,0 +1,18 @@
+{
+    "id": "neovim",
+    "version": "1.0.0",
+    "name": "Neovim",
+    "documentationURL": "https://neovim.io/doc/",
+    "description": "Installs Neovim and ripgrep from the distribution's official package repositories.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select version of neovim to install. Only 'latest' and 'none' are supported when installing from system repositories."
+        }
+    }
+}
